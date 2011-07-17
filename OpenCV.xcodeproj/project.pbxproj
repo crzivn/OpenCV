@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C011A441393C041008B9545 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C011A431393C041008B9545 /* UIKit.framework */; };
+		2C011A461393C041008B9545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C011A451393C041008B9545 /* Foundation.framework */; };
+		2C011A481393C041008B9545 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C011A471393C041008B9545 /* CoreGraphics.framework */; };
+		2C011A4E1393C041008B9545 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C011A4C1393C041008B9545 /* InfoPlist.strings */; };
+		2C011A511393C041008B9545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C011A501393C041008B9545 /* main.m */; };
+		2C011A541393C041008B9545 /* OpenCVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C011A531393C041008B9545 /* OpenCVAppDelegate.m */; };
+		2C011A571393C041008B9545 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C011A551393C041008B9545 /* MainWindow.xib */; };
+		2C011A5A1393C041008B9545 /* OpenCVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C011A591393C041008B9545 /* OpenCVViewController.m */; };
+		2C011A5D1393C041008B9545 /* OpenCVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C011A5B1393C041008B9545 /* OpenCVViewController.xib */; };
+		2C011A6413941324008B9545 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C011A6313941324008B9545 /* Accelerate.framework */; };
+		2C011A6713941B13008B9545 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C011A6613941B13008B9545 /* libopencv_core.a */; };
+		2C011A6A13943190008B9545 /* lena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C011A6913943190008B9545 /* lena.jpg */; };
+		2C011A6C13967421008B9545 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C011A6B13967421008B9545 /* libopencv_imgproc.a */; };
+		2CECB5BB1397C23400E1E831 /* libopencv_objdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CECB5BA1397C23400E1E831 /* libopencv_objdetect.a */; };
+		2CECB5C81397C61400E1E831 /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2CECB5C71397C61400E1E831 /* haarcascade_frontalface_default.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C011A3F1393C041008B9545 /* OpenCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C011A431393C041008B9545 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C011A451393C041008B9545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C011A471393C041008B9545 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C011A4B1393C041008B9545 /* OpenCV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCV-Info.plist"; sourceTree = "<group>"; };
+		2C011A4D1393C041008B9545 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C011A4F1393C041008B9545 /* OpenCV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCV-Prefix.pch"; sourceTree = "<group>"; };
+		2C011A501393C041008B9545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C011A521393C041008B9545 /* OpenCVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVAppDelegate.h; sourceTree = "<group>"; };
+		2C011A531393C041008B9545 /* OpenCVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVAppDelegate.m; sourceTree = "<group>"; };
+		2C011A561393C041008B9545 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2C011A581393C041008B9545 /* OpenCVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVViewController.h; sourceTree = "<group>"; };
+		2C011A591393C041008B9545 /* OpenCVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVViewController.m; sourceTree = "<group>"; };
+		2C011A5C1393C041008B9545 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OpenCVViewController.xib; sourceTree = "<group>"; };
+		2C011A6313941324008B9545 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2C011A6613941B13008B9545 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = OpenCV/opencv_simulator/lib/libopencv_core.a; sourceTree = "<group>"; };
+		2C011A6913943190008B9545 /* lena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lena.jpg; path = OpenCV/Resources/lena.jpg; sourceTree = "<group>"; };
+		2C011A6B13967421008B9545 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = OpenCV/opencv_simulator/lib/libopencv_imgproc.a; sourceTree = "<group>"; };
+		2CECB5BA1397C23400E1E831 /* libopencv_objdetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_objdetect.a; path = OpenCV/opencv_simulator/lib/libopencv_objdetect.a; sourceTree = "<group>"; };
+		2CECB5C71397C61400E1E831 /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_default.xml; path = OpenCV/Resources/haarcascade_frontalface_default.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C011A3C1393C041008B9545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CECB5BB1397C23400E1E831 /* libopencv_objdetect.a in Frameworks */,
+				2C011A6C13967421008B9545 /* libopencv_imgproc.a in Frameworks */,
+				2C011A6713941B13008B9545 /* libopencv_core.a in Frameworks */,
+				2C011A6413941324008B9545 /* Accelerate.framework in Frameworks */,
+				2C011A441393C041008B9545 /* UIKit.framework in Frameworks */,
+				2C011A461393C041008B9545 /* Foundation.framework in Frameworks */,
+				2C011A481393C041008B9545 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C011A341393C040008B9545 = {
+			isa = PBXGroup;
+			children = (
+				2C011A681394312C008B9545 /* Resources */,
+				2C011A491393C041008B9545 /* OpenCV */,
+				2C011A6513941AA6008B9545 /* Libraries */,
+				2C011A421393C041008B9545 /* Frameworks */,
+				2C011A401393C041008B9545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C011A401393C041008B9545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C011A3F1393C041008B9545 /* OpenCV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C011A421393C041008B9545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C011A6313941324008B9545 /* Accelerate.framework */,
+				2C011A431393C041008B9545 /* UIKit.framework */,
+				2C011A451393C041008B9545 /* Foundation.framework */,
+				2C011A471393C041008B9545 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C011A491393C041008B9545 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				2C011A521393C041008B9545 /* OpenCVAppDelegate.h */,
+				2C011A531393C041008B9545 /* OpenCVAppDelegate.m */,
+				2C011A551393C041008B9545 /* MainWindow.xib */,
+				2C011A581393C041008B9545 /* OpenCVViewController.h */,
+				2C011A591393C041008B9545 /* OpenCVViewController.m */,
+				2C011A5B1393C041008B9545 /* OpenCVViewController.xib */,
+				2C011A4A1393C041008B9545 /* Supporting Files */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		2C011A4A1393C041008B9545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C011A4B1393C041008B9545 /* OpenCV-Info.plist */,
+				2C011A4C1393C041008B9545 /* InfoPlist.strings */,
+				2C011A4F1393C041008B9545 /* OpenCV-Prefix.pch */,
+				2C011A501393C041008B9545 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C011A6513941AA6008B9545 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2CECB5BA1397C23400E1E831 /* libopencv_objdetect.a */,
+				2C011A6B13967421008B9545 /* libopencv_imgproc.a */,
+				2C011A6613941B13008B9545 /* libopencv_core.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		2C011A681394312C008B9545 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CECB5C71397C61400E1E831 /* haarcascade_frontalface_default.xml */,
+				2C011A6913943190008B9545 /* lena.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C011A3E1393C041008B9545 /* OpenCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C011A601393C041008B9545 /* Build configuration list for PBXNativeTarget "OpenCV" */;
+			buildPhases = (
+				2C011A3B1393C041008B9545 /* Sources */,
+				2C011A3C1393C041008B9545 /* Frameworks */,
+				2C011A3D1393C041008B9545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCV;
+			productName = OpenCV;
+			productReference = 2C011A3F1393C041008B9545 /* OpenCV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C011A361393C040008B9545 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2C011A391393C040008B9545 /* Build configuration list for PBXProject "OpenCV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C011A341393C040008B9545;
+			productRefGroup = 2C011A401393C041008B9545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C011A3E1393C041008B9545 /* OpenCV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C011A3D1393C041008B9545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C011A4E1393C041008B9545 /* InfoPlist.strings in Resources */,
+				2C011A571393C041008B9545 /* MainWindow.xib in Resources */,
+				2C011A5D1393C041008B9545 /* OpenCVViewController.xib in Resources */,
+				2C011A6A13943190008B9545 /* lena.jpg in Resources */,
+				2CECB5C81397C61400E1E831 /* haarcascade_frontalface_default.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C011A3B1393C041008B9545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C011A511393C041008B9545 /* main.m in Sources */,
+				2C011A541393C041008B9545 /* OpenCVAppDelegate.m in Sources */,
+				2C011A5A1393C041008B9545 /* OpenCVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C011A4C1393C041008B9545 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C011A4D1393C041008B9545 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C011A551393C041008B9545 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C011A561393C041008B9545 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2C011A5B1393C041008B9545 /* OpenCVViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C011A5C1393C041008B9545 /* en */,
+			);
+			name = OpenCVViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C011A5E1393C041008B9545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C011A5F1393C041008B9545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		2C011A611393C041008B9545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCV/OpenCV-Prefix.pch";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"/Users/ivan/coding/tmp/opencv/1/OpenCV/OpenCV/opencv_device/include\"";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"/Users/ivan/coding/tmp/opencv/1/OpenCV/OpenCV/opencv_simulator/include\"";
+				INFOPLIST_FILE = "OpenCV/OpenCV-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OpenCV/opencv_simulator/lib\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"$(SRCROOT)/OpenCV/opencv_device/lib\"";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"/Users/ivan/coding/tmp/opencv/1/OpenCV/OpenCV/opencv_simulator/lib\"";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C011A621393C041008B9545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCV/OpenCV-Prefix.pch";
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"/Users/ivan/coding/tmp/opencv/1/OpenCV/OpenCV/opencv_device/include\"";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"/Users/ivan/coding/tmp/opencv/1/OpenCV/OpenCV/opencv_simulator/include\"";
+				INFOPLIST_FILE = "OpenCV/OpenCV-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OpenCV/opencv_simulator/lib\"",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = "\"/Users/ivan/coding/tmp/opencv/1/OpenCV/OpenCV/opencv_device/lib\"";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = "\"/Users/ivan/coding/tmp/opencv/1/OpenCV/OpenCV/opencv_simulator/lib\"";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C011A391393C040008B9545 /* Build configuration list for PBXProject "OpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C011A5E1393C041008B9545 /* Debug */,
+				2C011A5F1393C041008B9545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C011A601393C041008B9545 /* Build configuration list for PBXNativeTarget "OpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C011A611393C041008B9545 /* Debug */,
+				2C011A621393C041008B9545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C011A361393C040008B9545 /* Project object */;
+}
